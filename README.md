@@ -10,14 +10,24 @@
 
 This project is graded according to the criteria in the [project rubric](https://review.udacity.com/#!/rubrics/432/view).
 
+## Project Requirements
+
+The project requires the following libraries/software:
+
+- Python 3.5.2
+- Tensorflow 1.0.0
+- Keras 1.2.1
+- Numpy 1.11.3
+- OpenCV 3.1.0
+- SciKit-Learn 0.18
+- Udacity's Self Driving Car Simulator
+
 ## Project files
 
 The project includes the following files:
 
 - **model.py** containing the script to create and train the model
 - **drive.py** for driving the car in autonomous mode
-- **model.h5** containing a trained convolution neural network
-- **video.mp4** showing the car driving through one lap of the track
 - **writeup\_report.pdf** summarizing the results
 
 Using the Udacity provided simulator and my **drive.py** file, the car can drive autonomously around the track by executing
