@@ -50,6 +50,8 @@ The architecture of this model is coded in the **build\_model()** function of **
 | 15 | ReLU activation |   |
 | 16 | Fully connected layer 4 | 1 neuron |
 
+![Model Architecture](report/architecture.jpg "Model Architecture")
+
 ### Initial Considerations
 
 Following the advice given by Paul Heraty on the Udacity forum( [Behavioral Cloning cheatsheet](https://carnd-forums.udacity.com/questions/26214464/behavioral-cloning-cheatsheet)), from the lectures, and from the [NVIDIA paper](http://images.nvidia.com/content/tegra/automotive/images/2016/solutions/pdf/end-to-end-dl-using-px.pdf), the following ideas were considered:
@@ -151,7 +153,7 @@ To avoid overfitting, the training dataset was augmented in the following ways:
 
 | **Left camera (+3.1°)** | **Center camera (0°)** | **Right camera (-3.1°)** |
 | --- | --- | --- |
-|     |     |     |
+| ![Left Camera](report/left_camera.jpg "Left Camera") | ![Center Camera](report/center_camera.jpg "Center Camera") | ![Right Camera](report/right_camera.jpg "Right Camera") |
 
 ### Preprocessing
 
