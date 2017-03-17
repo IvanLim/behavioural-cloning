@@ -42,8 +42,9 @@ The **model.py** file contains the code for training and saving the convolution 
 
 The architecture of this model is coded in the **build\_model()** function of **model.py**. The model expects an image in the shape **(80, 160, 3)**. The model consists of the following layers:
 
+| # | Layer | Description |
+| :---: | :--- | :--- |
 | 1 | Cropping 2D Layer | **(Preprocessing)** Crops top by 25 pixels, bottom by 12 pixels |
-| --- | --- | --- |
 | 2 | Normalization Layer | **(Preprocessing)** Keras Lambda Layer (Normalizing between [-1, 1]) |
 | 3 | Convolution2D layer 1 | 3@1x1 convolution filters |
 | 4 | Convolution2D layer 2 | 18@5x5 convolution filters |
